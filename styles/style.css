@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  padding: 20px 35px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.cta-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-header {
+  color: #000;
+  padding-top: 60px;
+}
+.main-header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header .navigation .main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.main-header .navigation .main-nav ul a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+.main-header .navigation .main-nav ul a:hover {
+  color: #B9FF66;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+.hero-content .hero-text h1 {
+  font-size: 60px;
+}
+.hero-content .hero-text p {
+  padding: 35px 0;
+}
+.hero-content .hero-text .cta-button {
+  color: #fff;
+  background-color: #191A23;
+  transition: 0.3s;
+}
+.hero-content .hero-text .cta-button:hover {
+  color: #191A23;
+  background-color: #fff;
+}
+
+.partners {
+  padding-top: 70px;
+}
+.partners .partners-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
