@@ -44,24 +44,29 @@ body{
         justify-content: space-between;
         align-items: center;
 
-        .main-nav{
-            ul{
-                list-style: none;
-                display: flex;
-                gap: 40px;
+        .nav-elements{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
 
-                a{
-                    text-decoration: none;
-                    color: $secondary-color;
-                    transition: 0.3s;
-
-                    &:hover{
-                        color: #B9FF66;
+            .main-nav{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    gap: 40px;
+                    a{
+                        text-decoration: none;
+                        color: $secondary-color;
+                        transition: 0.3s;
+    
+                        &:hover{
+                            color: #B9FF66;
+                        }
                     }
                 }
             }
-        }
-            
+        }            
     }
 }
 
