@@ -1,5 +1,6 @@
 $first-color: #fff;
 $secondary-color: #000;
+$company-color: #B9FF66;
 $font-size-defolt: 20px;
 
 *{
@@ -11,6 +12,13 @@ $font-size-defolt: 20px;
 body{
     font-family: "Space Grotesk", sans-serif;
     font-size: $font-size-defolt;
+}
+
+h2{
+    font-size: 40px;
+    background-color: $company-color;
+    padding: 0 7px;
+    border-radius: 7px;
 }
 
 .container{
@@ -85,7 +93,7 @@ body{
             padding: 35px 0;
         }
         
-        .cta-button{
+        .black-btn{
             color: $first-color;
             background-color: #191A23;
             transition: 0.3s;
@@ -105,5 +113,84 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+.services{
+    padding-top: 140px;
+
+    .services-info{
+        display: flex;
+        align-items: center;
+        width: 787px;
+        gap: 40px;
+        padding-bottom: 80px;
+        p{
+            font-size: 17px;
+        }
+    }
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #000;
+    border-bottom: 6px solid black;
+    border-radius: 45px;
+    width: 600px;
+   
+
+    .card-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+
+        .card-text{
+        
+
+            h3{
+                font-size: 30px;
+                background-color: $company-color;
+                padding: 0 7px;
+                border-radius: 7px;
+                margin-bottom: 93px;
+            }
+    
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+
+.card-grey{
+    background-color: #F3F3F3;
+}
+
+.card-green{
+    background-color: $company-color;
+
+    .card-content{
+        h3{
+            background-color: #fff;
+        }
+    }
+}
+
+.card-black{
+    background-color: #000;
+    .card-content{
+        h3{
+            background-color: #fff;
+        }
+
+        a{
+            color: #fff;
+        }
     }
 }

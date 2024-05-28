@@ -9,6 +9,13 @@ body {
   font-size: 20px;
 }
 
+h2 {
+  font-size: 40px;
+  background-color: #B9FF66;
+  padding: 0 7px;
+  border-radius: 7px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -71,12 +78,12 @@ body {
 .hero-content .hero-text p {
   padding: 35px 0;
 }
-.hero-content .hero-text .cta-button {
+.hero-content .hero-text .black-btn {
   color: #fff;
   background-color: #191A23;
   transition: 0.3s;
 }
-.hero-content .hero-text .cta-button:hover {
+.hero-content .hero-text .black-btn:hover {
   color: #191A23;
   background-color: #fff;
 }
@@ -88,4 +95,68 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.services {
+  padding-top: 140px;
+}
+.services .services-info {
+  display: flex;
+  align-items: center;
+  width: 787px;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+.services .services-info p {
+  font-size: 17px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #000;
+  border-bottom: 6px solid black;
+  border-radius: 45px;
+  width: 600px;
+}
+.card .card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.card .card-content .card-text h3 {
+  font-size: 30px;
+  background-color: #B9FF66;
+  padding: 0 7px;
+  border-radius: 7px;
+  margin-bottom: 93px;
+}
+.card .card-content .card-text a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-grey {
+  background-color: #F3F3F3;
+}
+
+.card-green {
+  background-color: #B9FF66;
+}
+.card-green .card-content h3 {
+  background-color: #fff;
+}
+
+.card-black {
+  background-color: #000;
+}
+.card-black .card-content h3 {
+  background-color: #fff;
+}
+.card-black .card-content a {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
