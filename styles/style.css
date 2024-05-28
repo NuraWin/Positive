@@ -37,6 +37,16 @@ h2 {
   color: #fff;
 }
 
+.black-btn {
+  color: #fff;
+  background-color: #191A23;
+  transition: 0.3s;
+}
+.black-btn:hover {
+  color: #191A23;
+  background-color: #fff;
+}
+
 .main-header {
   color: #000;
   padding-top: 60px;
@@ -78,15 +88,6 @@ h2 {
 .hero-content .hero-text p {
   padding: 35px 0;
 }
-.hero-content .hero-text .black-btn {
-  color: #fff;
-  background-color: #191A23;
-  transition: 0.3s;
-}
-.hero-content .hero-text .black-btn:hover {
-  color: #191A23;
-  background-color: #fff;
-}
 
 .partners {
   padding-top: 70px;
@@ -115,6 +116,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -159,4 +161,34 @@ h2 {
 }
 .card-black .card-content a {
   color: #fff;
+}
+
+.cta-section {
+  background-color: #f7f7f7;
+  border-radius: 45px;
+  padding: 60px;
+  display: flex;
+  position: relative;
+}
+
+.cta-content {
+  width: 500px;
+  z-index: 1;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 26px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+.cta-image {
+  position: absolute;
+  right: -50px;
+  bottom: -30px;
+  z-index: 0;
 }/*# sourceMappingURL=style.css.map */
