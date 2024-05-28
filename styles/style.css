@@ -37,12 +37,12 @@ h2 {
   color: #fff;
 }
 
-.black-btn {
+.btn-dark {
   color: #fff;
   background-color: #191A23;
   transition: 0.3s;
 }
-.black-btn:hover {
+.btn-dark:hover {
   color: #191A23;
   background-color: #fff;
 }
@@ -164,29 +164,25 @@ h2 {
 }
 
 .cta-section {
-  background-color: #f7f7f7;
+  background-color: #f3f3f3;
   border-radius: 45px;
   padding: 60px;
   display: flex;
   position: relative;
 }
-
-.cta-content {
+.cta-section .cta-content {
   width: 500px;
   z-index: 1;
 }
-
-h3 {
+.cta-section .cta-content h3 {
   font-size: 30px;
   margin-bottom: 26px;
 }
-
-p {
+.cta-section .cta-content p {
   font-size: 18px;
   margin-bottom: 26px;
 }
-
-.cta-image {
+.cta-section .cta-image {
   position: absolute;
   right: -50px;
   bottom: -30px;
