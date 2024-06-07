@@ -601,6 +601,7 @@ p{
         .footer-nav{
             display: flex;
             justify-content: space-between;
+            align-items: center;
             padding-bottom: 66px;
             
             .footer-nav-link{
@@ -630,12 +631,24 @@ p{
                 gap: 20px;
     
                 h4{
+                    width: 126px;
                     background-color: $green-color;
-                    display: inline;
+                    border-radius: 7px;
+                    padding: 0 7px;
                 }
     
                 p{
                     color: #fff;
+
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        transition: 0.3s;
+
+                        &:hover{
+                            color: #8c8c8c;
+                        }
+                    }
                 }
             }
     
@@ -667,6 +680,11 @@ p{
                 font-size: 18px;
                 margin-left: 40px;
                 color: #fff;
+                transition: 0.3s;
+
+                &:hover{
+                    color: #8c8c8c;;
+                }
             }
         }
     }
